@@ -310,8 +310,8 @@ impl<'de> Deserialize<'de> for CompressedEdwardsY {
 #[derive(Copy, Clone)]
 #[allow(missing_docs)]
 pub struct EdwardsPoint {
-    pub(crate) X: FieldElement,
-    pub(crate) Y: FieldElement,
+    pub X: FieldElement,
+    pub Y: FieldElement,
     pub(crate) Z: FieldElement,
     pub(crate) T: FieldElement,
 }
