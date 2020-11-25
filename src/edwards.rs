@@ -312,8 +312,8 @@ impl<'de> Deserialize<'de> for CompressedEdwardsY {
 pub struct EdwardsPoint {
     pub X: FieldElement,
     pub Y: FieldElement,
-    pub(crate) Z: FieldElement,
-    pub(crate) T: FieldElement,
+    pub Z: FieldElement,
+    pub T: FieldElement,
 }
 
 // ------------------------------------------------------------------------
